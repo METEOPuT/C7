@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Classes>
+  <Class Name="Animal">
+    <Comment>Абстрактный базовый класс для всех животных</Comment>
+    <Properties>
+      <Property Name="Country" Type="String" />
+      <Property Name="HideFromOtherAnimals" Type="Boolean" />
+      <Property Name="Name" Type="String" />
+      <Property Name="WhatAnimal" Type="String" />
+    </Properties>
+    <Methods>
+      <Method Name="Deconstruct" ReturnType="Void" />
+      <Method Name="GetClassificationAnimal" ReturnType="eClassificationAnimal" />
+      <Method Name="GetFavouriteFood" ReturnType="eFavouriteFood" />
+      <Method Name="SayHello" ReturnType="Void" />
+    </Methods>
+  </Class>
+  <Class Name="Cow">
+    <Comment>Класс коровы - травоядное животное</Comment>
+    <Properties>
+      <Property Name="Country" Type="String" />
+      <Property Name="HideFromOtherAnimals" Type="Boolean" />
+      <Property Name="Name" Type="String" />
+      <Property Name="WhatAnimal" Type="String" />
+    </Properties>
+    <Methods>
+      <Method Name="GetClassificationAnimal" ReturnType="eClassificationAnimal" />
+      <Method Name="GetFavouriteFood" ReturnType="eFavouriteFood" />
+      <Method Name="SayHello" ReturnType="Void" />
+    </Methods>
+  </Class>
+  <Class Name="Lion">
+    <Comment>Класс льва - хищное животное</Comment>
+    <Properties>
+      <Property Name="Country" Type="String" />
+      <Property Name="HideFromOtherAnimals" Type="Boolean" />
+      <Property Name="Name" Type="String" />
+      <Property Name="WhatAnimal" Type="String" />
+    </Properties>
+    <Methods>
+      <Method Name="GetClassificationAnimal" ReturnType="eClassificationAnimal" />
+      <Method Name="GetFavouriteFood" ReturnType="eFavouriteFood" />
+      <Method Name="SayHello" ReturnType="Void" />
+    </Methods>
+  </Class>
+  <Class Name="Pig">
+    <Comment>Класс свиньи - всеядное животное</Comment>
+    <Properties>
+      <Property Name="Country" Type="String" />
+      <Property Name="HideFromOtherAnimals" Type="Boolean" />
+      <Property Name="Name" Type="String" />
+      <Property Name="WhatAnimal" Type="String" />
+    </Properties>
+    <Methods>
+      <Method Name="GetClassificationAnimal" ReturnType="eClassificationAnimal" />
+      <Method Name="GetFavouriteFood" ReturnType="eFavouriteFood" />
+      <Method Name="SayHello" ReturnType="Void" />
+    </Methods>
+  </Class>
+</Classes>
